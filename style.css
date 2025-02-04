@@ -1,0 +1,66 @@
+.infotech1 {
+    width: 200px;
+    height: 50px;
+}
+
+.infotech_logo {
+    display: flex;
+    justify-content: center;    
+    flex-grow: 2;
+}
+
+.high_panel {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    flex-grow: 3;
+}
+
+.center_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 1062px;
+    height: 211px;
+    font-family: "Montserrat", sans-serif;
+    gap: 0,001px;
+}
+
+.big_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 52px;
+}
+
+.small_text {
+    display: flex;
+    justify-content: center;
+}
+
+.photoes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 80px 63px 80px 63px;
+    gap: 20px;
+    row-gap: 29px;
+   gap: 20px;
+}
+
+.each_photo {
+    width: 240px;
+    height: 282px;
+    border-radius: 20px;
+}
